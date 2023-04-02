@@ -1,0 +1,61 @@
+name: workday-temp-PR
+description: ''
+version: 0.0.1
+author: poojas@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: workdaytemppr
+  parentArtefactID: poojasprophecy.io_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-04-02 16:57:28'
+  modifiedAt: '2023-04-02 16:57:28'
+pipelines:
+  pipelines/Pip1:
+    name: Pip1
+    description: ''
+    author: poojas@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-02 16:57:28'
+    modifiedAt: '2023-04-02 16:59:23'
+    datasets:
+      inputs:
+      - datasets/test1
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/test1:
+    name: test1
+    description: ''
+    author: poojas@prophecy.io
+    createdAt: '2023-04-02 16:59:21'
+    modifiedAt: '2023-04-02 16:59:22'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 647
+        datasetType: File
+        description: ''
+        author: poojas@prophecy.io
+        createdAt: '2023-04-02 16:59:21'
+        modifiedAt: '2023-04-02 16:59:21'
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-04-02 16:57:28'
+  modifiedAt: '2023-04-02 16:57:28'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
