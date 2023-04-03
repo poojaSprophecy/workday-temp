@@ -27,6 +27,22 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/Pipeline1:
+    name: Pipeline1
+    description: ''
+    author: poojas+workday1@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-03 10:23:54'
+    modifiedAt: '2023-04-03 10:49:23'
+    datasets:
+      inputs:
+      - datasets/dataset1
+      outputs:
+      - datasets/dataset1
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/test1:
     name: test1
@@ -43,6 +59,21 @@ datasets:
         author: poojas@prophecy.io
         createdAt: '2023-04-02 16:59:21'
         modifiedAt: '2023-04-02 16:59:21'
+  datasets/dataset1:
+    name: dataset1
+    description: ''
+    author: poojas+workday1@prophecy.io
+    createdAt: '2023-04-03 10:49:11'
+    modifiedAt: '2023-04-03 10:49:11'
+    mode: batch
+    physicalDatasets:
+      Workday-demo:
+        fabricId: 1828
+        datasetType: File
+        description: ''
+        author: poojas+workday1@prophecy.io
+        createdAt: '2023-04-03 10:49:11'
+        modifiedAt: '2023-04-03 10:49:11'
 templates: {}
 jobs: {}
 functions:
