@@ -107,7 +107,7 @@
           "schema" : {
             "type" : "struct",
             "fields" : [ {
-              "name" : "etst",
+              "name" : "test",
               "type" : "string",
               "nullable" : true,
               "metadata" : {
@@ -154,7 +154,7 @@
           "schema" : {
             "type" : "struct",
             "fields" : [ {
-              "name" : "etst",
+              "name" : "test",
               "type" : "string",
               "nullable" : true,
               "metadata" : {

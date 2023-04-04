@@ -6,4 +6,4 @@ from pipeline1.config.ConfigStore import *
 from pipeline1.udfs.UDFs import *
 
 def dataset1(spark: SparkSession) -> DataFrame:
-    return spark.read.format("json").schema(StructType([StructField("etst", StringType(), True)])).load("test")
+    return spark.read.format("json").schema(StructType([StructField("test", StringType(), True)])).load("test")
