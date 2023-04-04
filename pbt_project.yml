@@ -1,0 +1,93 @@
+name: workday-temp-PR
+description: ''
+version: 0.0.1
+author: poojas@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: workdaytemppr
+  parentArtefactID: poojasprophecy.io_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-04-02 16:57:28'
+  modifiedAt: '2023-04-02 16:57:28'
+pipelines:
+  pipelines/Pip1:
+    name: Pip1
+    description: ''
+    author: poojas@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-02 16:57:28'
+    modifiedAt: '2023-04-04 04:26:11'
+    datasets:
+      inputs:
+      - datasets/test1
+      outputs:
+      - datasets/dataset1
+    subgraphs: []
+    dependencies: {}
+  pipelines/Pipeline1:
+    name: Pipeline1
+    description: ''
+    author: poojas+workday1@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-03 10:23:54'
+    modifiedAt: '2023-04-03 10:49:23'
+    datasets:
+      inputs:
+      - datasets/dataset1
+      outputs:
+      - datasets/dataset1
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/test1:
+    name: test1
+    description: ''
+    author: poojas@prophecy.io
+    createdAt: '2023-04-02 16:59:21'
+    modifiedAt: '2023-04-02 16:59:22'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 647
+        datasetType: File
+        description: ''
+        author: poojas@prophecy.io
+        createdAt: '2023-04-02 16:59:21'
+        modifiedAt: '2023-04-02 16:59:21'
+  datasets/dataset1:
+    name: dataset1
+    description: ''
+    author: poojas+workday1@prophecy.io
+    createdAt: '2023-04-03 10:49:11'
+    modifiedAt: '2023-04-04 04:19:30'
+    mode: batch
+    physicalDatasets:
+      Workday-demo:
+        fabricId: 1828
+        datasetType: File
+        description: ''
+        author: poojas+workday1@prophecy.io
+        createdAt: '2023-04-03 10:49:11'
+        modifiedAt: '2023-04-03 10:49:11'
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-04-02 16:57:28'
+  modifiedAt: '2023-04-02 16:57:28'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
