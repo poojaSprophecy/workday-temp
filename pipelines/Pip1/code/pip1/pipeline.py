@@ -8,6 +8,8 @@ from pip1.graph import *
 
 def pipeline(spark: SparkSession) -> None:
     df_test1 = test1(spark)
+    df_Filter_1 = Filter_1(spark, df_test1)
+    dataset1(spark, df_Filter_1)
 
 def main():
     spark = SparkSession.builder\

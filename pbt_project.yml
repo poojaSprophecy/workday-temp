@@ -20,11 +20,12 @@ pipelines:
     artefactID: ''
     language: python
     createdAt: '2023-04-02 16:57:28'
-    modifiedAt: '2023-04-04 03:45:13'
+    modifiedAt: '2023-04-04 04:26:11'
     datasets:
       inputs:
       - datasets/test1
-      outputs: []
+      outputs:
+      - datasets/dataset1
     subgraphs: []
     dependencies: {}
   pipelines/Pipeline1:
@@ -64,7 +65,7 @@ datasets:
     description: ''
     author: poojas+workday1@prophecy.io
     createdAt: '2023-04-03 10:49:11'
-    modifiedAt: '2023-04-03 10:49:11'
+    modifiedAt: '2023-04-04 04:19:30'
     mode: batch
     physicalDatasets:
       Workday-demo:

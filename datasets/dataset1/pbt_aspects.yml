@@ -2,7 +2,7 @@ version: 1
 schema:
   type: struct
   fields:
-  - name: etst
+  - name: test
     type: string
     nullable: true
     metadata:
