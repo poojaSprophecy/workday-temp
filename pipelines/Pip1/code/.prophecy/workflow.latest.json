@@ -2,7 +2,7 @@
   "metainfo" : {
     "id" : "1",
     "language" : "python",
-    "fabricId" : "647",
+    "fabricId" : "1828",
     "frontEndLanguage" : "sql",
     "mode" : "batch",
     "udfs" : {
@@ -55,8 +55,8 @@
       "metadata" : {
         "label" : "test1",
         "slug" : "test1",
-        "x" : 420,
-        "y" : 320,
+        "x" : 180,
+        "y" : 160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
